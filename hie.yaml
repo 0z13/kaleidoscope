@@ -1,0 +1,16 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "kaleidoscopeplusplus:lib"
+
+    - path: "./src/Parser"
+      component: "kaleidoscopeplusplus:lib"
+
+    - path: "./app/Main.hs"
+      component: "kaleidoscopeplusplus:exe:kaleidoscopeplusplus-exe"
+
+    - path: "./app/Paths_kaleidoscopeplusplus.hs"
+      component: "kaleidoscopeplusplus:exe:kaleidoscopeplusplus-exe"
+
+    - path: "./test"
+      component: "kaleidoscopeplusplus:test:kaleidoscopeplusplus-test"
