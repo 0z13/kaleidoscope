@@ -27,7 +27,7 @@ source-repository head
 
 library
   exposed-modules:
-      Parser, Syntax
+      Parser, Syntax, Codegen
   other-modules:
       Paths_kaleidoscopeplusplus
   hs-source-dirs:
@@ -38,6 +38,8 @@ library
     , megaparsec
     , text
     , parser-combinators
+    , llvm-hs
+    , llvm-hs-pure 
 
   default-language: Haskell2010
 
